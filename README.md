@@ -1,4 +1,7 @@
-Este proyecto es creado con Angular, utilizando Nodejs.
+Este proyecto es creado con Angular, utilizando Nodejs, todo en sus versiones estables.
+Estilos con Bootstrap v.4.6.x.
+
+Únicamente es necesario copiar el proyecto y ponerlo a funcionar con la terminal, "ng serve".
 
 Se empieza por el área de trabajo, la página principal, creando navbar, sidebar y página inicial de bienvenida,
 para luego enrutar las páginas (2 punto de la prueba), después pasé a crear lógica de la página tareas (4 punto)
