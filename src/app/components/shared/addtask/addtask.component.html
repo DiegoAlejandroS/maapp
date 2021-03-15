@@ -1,0 +1,18 @@
+<div class="card">
+    <div class="card-header">
+        Agregar nueva tarea
+    </div>
+    <div class="card-body">
+        <form (submit)="addTask()">
+            <div class="form-group">
+                <label for="title">Tarea:</label>
+                <input type="text" class="form-control" name="title" [(ngModel)]="title">
+            </div>
+            <div class="form-group">
+                <label for="title">Descripción:</label>
+                <input type="text" class="form-control" name="description" [(ngModel)]="description">
+            </div>
+            <input type="submit" value="Agregar" class="btn btn-primary">
+        </form>
+    </div>
+</div>
