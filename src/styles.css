@@ -42,13 +42,16 @@
     #wrapper.toggled #sidebar-wrapper {
         margin-left: -15rem;
     }
-    #image-welcome {
-        min-width: 0;
-        width: 100%;
-        padding-left: 15rem;
-    }
 }
 
 .list-group-item-action {
     color: white;
+}
+
+.image-welcome {
+    width: 100%;
+}
+
+.container {
+    padding-top: 30px;
 }
